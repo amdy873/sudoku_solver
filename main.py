@@ -7,4 +7,4 @@ backend = Backend()
 
 backend.load("sudoku_puzzles\sudoku1.csv")
 
-print(str(backend))
+backend.solve(sol="force")
